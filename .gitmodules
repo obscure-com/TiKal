@@ -1,0 +1,3 @@
+[submodule "vendor/Kal"]
+	path = vendor/Kal
+	url = https://github.com/pegli/Kal.git
