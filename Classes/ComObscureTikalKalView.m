@@ -19,7 +19,7 @@
     if (self = [super init]) {
         self.viewController = [[KalViewController alloc] init];
         TiThreadPerformOnMainThread(^{
-            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(selectedDateChanged:) name:kKalNotificationSelectedDate object:nil];
+            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(selectedDateChanged:) name:@"kKalNotificationSelectedDate" object:nil];
         }, NO);
         [self addSubview:self.viewController.view];
     }
