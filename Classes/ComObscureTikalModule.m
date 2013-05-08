@@ -8,7 +8,7 @@
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
-#import "KalImageManager.h"
+// #import "KalImageManager.h"
 
 @implementation ComObscureTikalModule
 
@@ -26,7 +26,7 @@
 
 -(void)startup {
 	[super startup];
-    [KalImageManager setImagePathFormat:[NSString stringWithFormat:@"%@/modules/%@/Kal.bundle/%%@", [[NSBundle mainBundle] bundlePath], [self moduleId]]];
+    // [KalImageManager setImagePathFormat:[NSString stringWithFormat:@"%@/modules/%@/Kal.bundle/%%@", [[NSBundle mainBundle] bundlePath], [self moduleId]]];
 }
 
 @end
