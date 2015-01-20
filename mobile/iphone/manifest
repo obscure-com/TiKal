@@ -2,7 +2,7 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.0
+version: 1.1
 apiversion: 2
 description: 
 author: Paul Mietz Egli
@@ -15,4 +15,5 @@ name: TiKal
 moduleid: com.obscure.tikal
 guid: a34156ff-48c1-4557-8e48-de00c0b37b18
 platform: iphone
-minsdk: 3.0.2.GA
+minsdk: 3.5.0.GA
+architectures: armv7 arm64 i386 x86_64
