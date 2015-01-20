@@ -1,0 +1,4 @@
+[submodule "mobile/iphone/vendor/Kal"]
+	path = mobile/iphone/vendor/Kal
+	url = https://github.com/pegli/Kal.git
+	branch = image_manager
