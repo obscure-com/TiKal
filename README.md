@@ -6,12 +6,21 @@ based on Kal by Keith Lazuka (https://github.com/klazuka/Kal)
 **TiKal** is an Appcelerator Titanium module which wraps Kal, an open-source
 calendar UI component.
 
+## Downloads
+
+[![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/com.obscure.tikal)
+
+Download the latest ZIP-file from the releases section or install using the [gitTio CLI](http://gitt.io/cli):
+
+`$ gittio install com.obscure.tikal`
+
 ## Building
 
 1. Clone this github repository.
-2. In the same directory as this README.md file, run `git submodule init`, then `git submodule update`.
-3. Open `titanium.xcconfig` and verify that the path to the Titanium SDK is correct for your system.
-4. Run `./build.py` to generate the module ZIP file.
+1. In the same directory as this README.md file, run `git submodule init`, then `git submodule update`.
+1. cd to `mobile/iphone`
+1. Open `titanium.xcconfig` and verify that the path to the Titanium SDK is correct for your system.
+1. Run `./build.py` to generate the module ZIP file.
 
 ## Using the Module
 
@@ -30,8 +39,8 @@ win.add(kal);
 
 ## Requirements
 
-* Titanium SDK 3.0.2 or later
-* Xcode 4.5 or later
+* Titanium SDK 3.5.0.GA or later
+* Xcode 6 or later
 
 ## License
 
@@ -39,6 +48,12 @@ win.add(kal);
 * Kal is under the MIT License. See that project for additional licenses.
 
 ## Development Status 
+
+**1.1**
+
+2015-01-20
+
+Modernized the project layout; updated for 64-bit iOS build.
 
 **1.0**
 
